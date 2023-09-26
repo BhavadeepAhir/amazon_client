@@ -1,0 +1,84 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  color: #ffad16;
+}
+
+.card i {
+  color: #e8ba3e !important;
+}
+
+
+Input{
+ width : 100%;
+ padding: 0.3rem , 1rem;
+ border-radius: 10px;
+ outline: none;
+}
+
+.paymentWrap {
+	padding: 50px;
+}
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 600px;
+  min-height: 200px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 40px;
+	box-shadow: none;
+	position: relative;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+	outline: none !important;
+}
+
+ .paymentWrap .paymentBtnGroup .paymentMethod.active .method {
+	border-color: #4cd264;
+	outline: none !important;
+	box-shadow: 0px 3px 22px 0px #7b7b7b;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	bottom: 3px;
+	left: 3px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.online {
+	background-image: url("/public/Images/online.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.cod {
+  background-image: url("/public/Images/cod.jpg");
+
+}
+
+
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+	border-color: #4cd264;
+	outline: none !important;
+}
